@@ -1,115 +1,94 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@misc{yang2026selfrobustllmsintrinsicprompt,
+      title={Towards Self-Robust LLMs: Intrinsic Prompt Noise Resistance via CoIPO}, 
+      author={Xin Yang and Letian Li and Abudukelimu Wuerkaixi and Xuxin Cheng and Cao Liu and Ke Zeng and Xunliang Cai and Wenyuan Jiang},
+      year={2026},
+      eprint={2603.03314},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.03314}, 
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@misc{yang2026cmollmscalehorizontalscaling,
+      title={cMoLLM at Scale: Horizontal Scaling Laws for Mixture-of-LLMs}, 
+      author={Xin Yang and Yemin Wang and Mingda Liu and Letian Li and Shuaishuai Cao and Zhengxiao He and Ryan Dong},
+      year={2026},
+      eprint={2607.22577},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2607.22577}, 
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@inproceedings{
+yang2026position,
+title={Position: Multi-Agent Systems Should Prioritize Concurrency Control},
+author={Xin Yang and Letian Li and Zimo Ji and Terry Jingchen Zhang and Wenyuan Jiang},
+booktitle={Forty-third International Conference on Machine Learning Position Paper Track},
+year={2026},
+url={https://openreview.net/forum?id=nfYEDaDzv9}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@inproceedings{yang-etal-2026-20,
+    title = "When 20 Agents Fail to Sort: The Distributed Sorting Benchmark for Scalable Multi-Agent Systems",
+    author = "Yang, Xin  and
+      Wang, Junhao  and
+      Tang, Bintao  and
+      Cheng, Xuxin  and
+      Liu, Cao  and
+      Zeng, Ke  and
+      Jiang, Wenyuan",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.1698/",
+    doi = "10.18653/v1/2026.findings-acl.1698",
+    pages = "34002--34021",
+    ISBN = "979-8-89176-395-1",
+    abstract = "Current LLM-based multi-agent systems remain fragile under scaling, even on algorithmically trivial tasks. We introduce MAS-BENCH, a distributed-sorting benchmark that isolates coordination under explicit communication constraints: each agent observes only a local segment and must collectively produce a globally consistent order via broadcasting, peer-to-peer messaging, or a shared key-value store. Across LLM-based agents, success drops sharply as the number of agents grows, exposing persistent failures in shared state, convention alignment, and consistent termination. To mitigate these breakdowns, we propose CAMOC, a lightweight, drop-in proof-of-concept built on collaboration-aware information sharing, early global metadata exchange, and single-commit verification. CAMOC substantially improves coordination success and efficiency across backends, with the largest gains under shared-state interaction. Overall, MAS-BENCH provides a diagnostic benchmark and CAMOC offers a practical step toward more reliable large-scale LLM collaboration, highlighting a gap between individual reasoning and collective correctness."
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+@misc{jiang2026breakingillusionpositivemeets,
+      title={Breaking the Illusion: When Positive Meets Negative in Multimodal Decoding}, 
+      author={Yubo Jiang and Yitong An and Xin Yang and Abudukelimu Wuerkaixi and Xuxin Cheng and Fengying Xie and Zhiguo Jiang and Cao Liu and Ke Zeng and Haopeng Zhang},
+      year={2026},
+      eprint={2605.06679},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.06679}, 
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@inproceedings{jiang-etal-2026-global,
+    title = "Global Context or Local Detail? Adaptive Visual Grounding for Hallucination Mitigation",
+    author = "Jiang, Yubo  and
+      Yang, Xin  and
+      Wuerkaixi, Abudukelimu  and
+      Yuan, Zheming  and
+      Cheng, Xuxin  and
+      Liu, Cao  and
+      Zeng, Ke  and
+      Xie, Fengying  and
+      Jiang, Zhiguo  and
+      Zhang, Haopeng",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.745/",
+    doi = "10.18653/v1/2026.findings-acl.745",
+    pages = "15133--15152",
+    ISBN = "979-8-89176-395-1",
+    abstract = "Large vision{--}language models (LVLMs) excel at multimodal reasoning but still suffer from object-existence hallucinations when multi-step deliberation decouples from visual evidence. Think-with-Images (TwI) attempts to counter this by generating auxiliary observations (e.g., zoomed crops or highlighted views), yet it is not reliably beneficial. We identify two coupled failure modes: (1) a granularity{--}context trade-off of common operators, where zoom-in improves local detail but breaks global relations, while highlighting preserves topology but lacks fine evidence; and (2) an over-trust issue in tool-guided region proposals, where mislocalized evidence can dominate reasoning and even underperform standard prompting. We propose Active-Look, a training-free, plug-and-play TwI framework that allocates visual computation by uncertainty. Active-Look runs two heterogeneous grounding experts in parallel and uses their disagreement as a proxy for uncertainty, spending the budget only to verify disputed regions. It further mitigates the operator trade-off with conflict-aware hybrid rendering: highlighting retains global context, while selective zoom-in performs local verification. Experiments on hallucination-focused and general benchmarks (POPE, MME, and CHAIR) across multiple LVLM backbones show consistent gains."
 }
