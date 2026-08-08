@@ -8,8 +8,18 @@
 #   url      link to the announcement, certificate, or list of recipients
 #   summary  one line of context, e.g. selection rate or scope
 
-# - title: Outstanding Graduate Student
-#   issuer: Zhejiang University
-#   date: "2026"
-#   url: https://www.zju.edu.cn
-#   summary: Awarded to the top 5% of students in the school.
+- title: National Scholarship
+  issuer: Ministry of Education, China
+
+- title: Shanghai Outstanding Graduate
+  issuer: Shanghai Municipal Education Commission
+
+- title: First-Class Scholarship
+  issuer: Zhejiang University
+
+- title: First-Class Scholarship
+  issuer: Tongji University
+  summary: Awarded multiple times.
+
+- title: Outstanding Student
+  issuer: Tongji University

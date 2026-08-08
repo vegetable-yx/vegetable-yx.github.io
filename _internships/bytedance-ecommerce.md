@@ -3,6 +3,7 @@ layout: page
 title: ByteDance
 description: Algorithm Intern, Global E-commerce · Jan 2025 – Aug 2025
 importance: 4
+category: graduate
 ---
 
 #### Model Tuning

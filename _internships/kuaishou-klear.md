@@ -3,6 +3,7 @@ layout: page
 title: Kuaishou
 description: Foundation Model Algorithm Intern, Klear Team · Feb 2026 – May 2026
 importance: 2
+category: graduate
 ---
 
 Foundation Model and Applications Department, Klear foundation model team.

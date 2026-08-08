@@ -3,6 +3,7 @@ layout: page
 title: Meituan
 description: LLM Algorithm Intern, LongCat Interaction · Aug 2025 – Feb 2026
 importance: 3
+category: graduate
 ---
 
 #### WOWService

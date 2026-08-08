@@ -3,6 +3,7 @@ layout: page
 title: Baidu
 description: Foundation Model Algorithm Intern, ERNIE Team · May 2026 – Present
 importance: 1
+category: graduate
 ---
 
 Selected for the ERNIE Rising Star top-talent program.
