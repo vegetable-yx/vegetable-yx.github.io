@@ -1,6 +1,6 @@
 ---
 ---
-@misc{yang2026selfrobustllmsintrinsicprompt,
+@inproceedings{yang2026selfrobustllmsintrinsicprompt,
       title={Towards Self-Robust LLMs: Intrinsic Prompt Noise Resistance via CoIPO}, 
       author={Xin Yang and Letian Li and Abudukelimu Wuerkaixi and Xuxin Cheng and Cao Liu and Ke Zeng and Xunliang Cai and Wenyuan Jiang},
       year={2026},
@@ -9,11 +9,12 @@
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2603.03314}, 
       booktitle = "The Fourteenth {I}nternational {C}onference on {L}earning {R}epresentations: {ICLR} 2026",
+      abbr={ICLR 2026},
       selected={true},
       preview={iclr.png},
 }
 
-@misc{yang2026cmollmscalehorizontalscaling,
+@inproceedings{yang2026cmollmscalehorizontalscaling,
       title={cMoLLM at Scale: Horizontal Scaling Laws for Mixture-of-LLMs}, 
       author={Xin Yang and Yemin Wang and Mingda Liu and Letian Li and Shuaishuai Cao and Zhengxiao He and Ryan Dong},
       year={2026},
@@ -22,6 +23,7 @@
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2607.22577}, 
       booktitle = "Forty-Third {I}nternational {C}onference on {M}achine {L}earning: {ICML} 2026",
+      abbr={ICML 2026},
       selected={true},
       preview={icml-cmollm.png},
 }
@@ -33,6 +35,7 @@
       booktitle={Forty-third International Conference on Machine Learning Position Paper Track},
       year={2026},
       url={https://openreview.net/forum?id=nfYEDaDzv9},
+      abbr={ICML 2026},
       selected={true},
       preview={icml-mas.png},
 }
@@ -59,13 +62,11 @@
     doi = "10.18653/v1/2026.findings-acl.1698",
     pages = "34002--34021",
     ISBN = "979-8-89176-395-1",
+    abbr={ACL Findings 2026},
     selected={true},
     preview={acl-mas.png},
     abstract = "Current LLM-based multi-agent systems remain fragile under scaling, even on algorithmically trivial tasks. We introduce MAS-BENCH, a distributed-sorting benchmark that isolates coordination under explicit communication constraints: each agent observes only a local segment and must collectively produce a globally consistent order via broadcasting, peer-to-peer messaging, or a shared key-value store. Across LLM-based agents, success drops sharply as the number of agents grows, exposing persistent failures in shared state, convention alignment, and consistent termination. To mitigate these breakdowns, we propose CAMOC, a lightweight, drop-in proof-of-concept built on collaboration-aware information sharing, early global metadata exchange, and single-commit verification. CAMOC substantially improves coordination success and efficiency across backends, with the largest gains under shared-state interaction. Overall, MAS-BENCH provides a diagnostic benchmark and CAMOC offers a practical step toward more reliable large-scale LLM collaboration, highlighting a gap between individual reasoning and collective correctness."
 }
-
---
---
 
 @inproceedings{jiang-etal-2026-global,
     title = "Global Context or Local Detail? Adaptive Visual Grounding for Hallucination Mitigation",
@@ -92,12 +93,13 @@
     doi = "10.18653/v1/2026.findings-acl.745",
     pages = "15133--15152",
     ISBN = "979-8-89176-395-1",
+    abbr={ACL Findings 2026},
     selected={true},
     preview={acl-al.png},
     abstract = "Large vision{--}language models (LVLMs) excel at multimodal reasoning but still suffer from object-existence hallucinations when multi-step deliberation decouples from visual evidence. Think-with-Images (TwI) attempts to counter this by generating auxiliary observations (e.g., zoomed crops or highlighted views), yet it is not reliably beneficial. We identify two coupled failure modes: (1) a granularity{--}context trade-off of common operators, where zoom-in improves local detail but breaks global relations, while highlighting preserves topology but lacks fine evidence; and (2) an over-trust issue in tool-guided region proposals, where mislocalized evidence can dominate reasoning and even underperform standard prompting. We propose Active-Look, a training-free, plug-and-play TwI framework that allocates visual computation by uncertainty. Active-Look runs two heterogeneous grounding experts in parallel and uses their disagreement as a proxy for uncertainty, spending the budget only to verify disputed regions. It further mitigates the operator trade-off with conflict-aware hybrid rendering: highlighting retains global context, while selective zoom-in performs local verification. Experiments on hallucination-focused and general benchmarks (POPE, MME, and CHAIR) across multiple LVLM backbones show consistent gains."
 }
 
-@misc{jiang2026breakingillusionpositivemeets,
+@inproceedings{jiang2026breakingillusionpositivemeets,
       title={Breaking the Illusion: When Positive Meets Negative in Multimodal Decoding}, 
       author={Yubo Jiang and Yitong An and Xin Yang and Abudukelimu Wuerkaixi and Xuxin Cheng and Fengying Xie and Zhiguo Jiang and Cao Liu and Ke Zeng and Haopeng Zhang},
       year={2026},
@@ -105,6 +107,7 @@
       archivePrefix={arXiv},
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2605.06679}, 
+      abbr={CVPR 2026},
       selected={true},
       preview={cvpr.png},
       booktitle = "The IEEE/CVF Conference on {C}omputer {V}ision and {P}attern {R}ecognition 2026: {CVPR} 2026",
@@ -136,11 +139,12 @@
     doi = "10.18653/v1/2026.acl-long.1354",
     pages = "29379--29398",
     ISBN = "979-8-89176-390-6",
+    abbr={ACL 2026},
     preview={acl-silo.png},
     abstract = "Large language models are increasingly deployed in multi-agent systems to overcome context limitations by distributing information across agents. However, whether LLM-based agents can reliably coordinate when each observes only a fragment of the global problem remains unclear. Existing benchmarks often prescribe agent roles or interaction patterns, conflating coordination ability with role-based priors. We introduce SILO-BENCH, a role-free benchmark for evaluating free-form collaboration under information silos. The benchmark comprises 30 algorithmic tasks with exact ground-truth answers, organized into 3 complexity levels based on optimal communication complexity: aggregation, mesh, and global shuffle. To systematically probe coordination capabilities, we instantiate 54 configurations by varying 3 communication protocols, 6 agent scales and 3 frontier LLMs, conducting 1,620 experiments. We evaluate agent behavior along three dimensions: Success Rate, Token Consumption, and Communication Density. Our experiments reveal a fundamental Communication-Reasoning Gap: agents communicate actively, yet fail to translate interaction into effective distributed computation. Performance collapses as complexity increases, with Level-III tasks achieving zero success beyond 50 agents. These findings demonstrate that current LLMs cannot escape information silos through coordination alone. SILO-BENCH provides a foundation for tracking progress toward genuinely collaborative multi-agent systems. The code is available at \url{https://github.com/jwyjohn/acl26-silo-bench}."
 }
 
-@misc{cheng2026highersatisfactionlowercost,
+@inproceedings{cheng2026highersatisfactionlowercost,
       title={Higher Satisfaction, Lower Cost: A Technical Report on How LLMs Revolutionize Meituan's Intelligent Interaction Systems}, 
       author={Xuxin Cheng and Ke Zeng and Zhiquan Cao and Linyi Dai and Wenxuan Gao and Fei Han and Ai Jian and Feng Hong and Wenxing Hu and Zihe Huang and Dejian Kong and Jia Leng and Zhuoyuan Liao and Pei Liu and Jiaye Lin and Xing Ma and Jingqing Ruan and Jiaxing Song and Xiaoyu Tan and Ruixuan Xiao and Wenhui Yu and Wenyu Zhan and Haoxing Zhang and Chao Zhou and Hao Zhou and Shaodong Zheng and Ruinian Chen and Siyuan Chen and Ziyang Chen and Yiwen Dong and Yaoyou Fan and Yangyi Fang and Yang Gan and Shiguang Guo and Qi He and Chaowen Hu and Binghui Li and Dailin Li and Xiangyu Li and Yan Li and Chengjian Liu and Xiangfeng Liu and Jiahui Lv and Qiao Ma and Jiang Pan and Cong Qin and Chenxing Sun and Wen Sun and Zhonghui Wang and Abudukelimu Wuerkaixi and Xin Yang and Fangyi Yuan and Yawen Zhu and Tianyi Zhai and Jie Zhang and Runlai Zhang and Yao Xu and Yiran Zhao and Yifan Wang and Xunliang Cai and Yangen Hu and Cao Liu and Lu Pan and Xiaoli Wang and Bo Xiao and Wenyuan Yao and Qianlin Zhou and Benchang Zhu},
       year={2026},
@@ -148,6 +152,7 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2510.13291}, 
+      abbr={Tech Report},
       preview={meituan.png},
       selected={true},
       booktitle = "Meituan Technical Report"
@@ -163,6 +168,7 @@
   pages={672-675},
   keywords={Codes;Systematics;Large language models;Computer architecture;Benchmark testing;Generators;Numerical models;Optimization;Cybernetics;Contamination},
   doi={10.1109/SMC58881.2025.11343280},
+  abbr={IEEE SMC 2025},
   preview={smc.png}
   }
 
@@ -177,16 +183,17 @@ and Xue, Bing
 and Khanna, Sankalp",
 title="Leveraging Runtime Information for LLM Quantization",
 booktitle="PRICAI 2025: Trends in Artificial Intelligence",
-year="2026",
+year="2025",
 publisher="Springer Nature Singapore",
 address="Singapore",
 pages="682--690",
 abstract="The increasing size and context length of large language models (LLMs) poses significant challenges for memory usage during inference, limiting their deployment on edge devices. Post-training quantization (PTQ) offers a promising solution by reducing memory requirements and improving computational efficiency, but aggressive PTQ methods often lead to significant degradation of performance. To address this, we propose LazyQuant, leveraging two key insights based on runtime information during LLM inference process: (1) the precision of initial key-value (KV) cache segments strongly influences model performance, and (2) space for the KV cache can be allocated later during inference. Instead of relying on static, fully quantized weights, LazyQuant reduces weight size only when memory is tight---leveraging previously generated KV caches, created with higher-precision weights, to mitigate precision loss. Our pilot experiments show LazyQuant surpasses state-of-the-art methods under limited memory budgets.",
 isbn="978-981-95-7078-2",
+abbr={PRICAI 2025},
 preview={pricai.png}
 }
 
-@misc{tang2025integralbenchbenchmarkingllmsdefinite,
+@inproceedings{tang2025integralbenchbenchmarkingllmsdefinite,
       title={INTEGRALBENCH: Benchmarking LLMs with Definite Integral Problems}, 
       author={Bintao Tang and Xin Yang and Yuhao Wang and Zixuan Qiu and Zimo Ji and Wenyuan Jiang},
       year={2025},
@@ -195,6 +202,7 @@ preview={pricai.png}
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2507.21130}, 
       booktitle = "2nd AI for Math Workshop @ ICML 2025",
+      abbr={ICML 2025 Workshop},
       preview={integral.png}
 }
 
@@ -205,6 +213,7 @@ author={Kwok Wai Lui and Shenbao Lu and Han Wu and Xin Yang and Wenyuan Jiang},
 booktitle={Trustworthy AI for Good (AI4GOOD) Workshop @ ICML 2026},
 year={2026},
 url={https://openreview.net/forum?id=0GgFeojE4a},
+abbr={ICML 2026 Workshop},
 preview={ai4good.png}
 }
 
@@ -216,6 +225,7 @@ preview={ai4good.png}
       archivePrefix={arXiv},
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2506.19874}, 
+      abbr={arXiv},
       preview={secure.png}
 }
 
@@ -227,6 +237,7 @@ preview={ai4good.png}
       archivePrefix={arXiv},
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2604.20755}, 
+      abbr={arXiv},
       preview={vtabler.png}
 }
 
@@ -238,5 +249,6 @@ preview={ai4good.png}
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2606.09738}, 
+      abbr={arXiv},
       preview={hdsl.png}
 }

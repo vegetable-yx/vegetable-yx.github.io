@@ -127,7 +127,7 @@ collections:
     defaults:
       layout: post
     output: true
-  projects:
+  internships:
     output: true
 
 # -----------------------------------------------------------------------------

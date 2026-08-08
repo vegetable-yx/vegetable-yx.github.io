@@ -1,0 +1,15 @@
+# Awards listed on /awards/ — entries render in the order they appear here, so put
+# the most recent first.
+#
+# Fields (only `title` is required):
+#   title    name of the award
+#   awarder  organization, conference, or competition that granted it
+#   date     display string, e.g. "2026" or "Jul 2026" — quote it so YAML keeps it as text
+#   url      link to the announcement, leaderboard, or certificate
+#   summary  one line of context, e.g. rank, prize, or number of competitors
+
+# - title: Best Paper Award
+#   awarder: Association for Computational Linguistics
+#   date: "Jul 2026"
+#   url: https://aclanthology.org
+#   summary: One of 3 papers selected out of 4,000 submissions.

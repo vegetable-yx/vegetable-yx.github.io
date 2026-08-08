@@ -1,0 +1,15 @@
+# Honors listed on /honors/ — entries render in the order they appear here, so put
+# the most recent first.
+#
+# Fields (only `title` is required):
+#   title    name of the honor
+#   issuer   organization or institution that granted it
+#   date     display string, e.g. "2026" or "Jul 2026" — quote it so YAML keeps it as text
+#   url      link to the announcement, certificate, or list of recipients
+#   summary  one line of context, e.g. selection rate or scope
+
+# - title: Outstanding Graduate Student
+#   issuer: Zhejiang University
+#   date: "2026"
+#   url: https://www.zju.edu.cn
+#   summary: Awarded to the top 5% of students in the school.
