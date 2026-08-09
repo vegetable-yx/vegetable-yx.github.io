@@ -37,10 +37,10 @@ nav_order: 3
                 <img
                   src="{{ project.logo | prepend: '/assets/img/company/' | relative_url }}"
                   alt="{{ project.title }}"
-                  style="position: absolute; top: 0.9rem; right: 0.9rem; width: 2.75rem; height: 2.75rem; object-fit: contain"
+                  style="position: absolute; top: 1rem; right: 1rem; height: 1.6rem; max-width: 5.5rem; object-fit: contain; object-position: right center"
                 />
               {% endif %}
-              <div class="card-body" style="{% if project.logo %}padding-right: 4.25rem{% endif %}">
+              <div class="card-body" style="{% if project.logo %}padding-right: 6.5rem{% endif %}">
                 <h2 class="card-title">{{ project.title }}</h2>
                 <p class="card-text">{{ project.description }}</p>
               </div>
