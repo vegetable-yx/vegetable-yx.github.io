@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded the National Scholarship by the Ministry of Education of China.
+Awarded the <strong style="background-color: #2563eb; color: #fff; border-radius: 999px; padding: 0.1rem 0.6rem; white-space: nowrap">National Scholarship</strong> by the Ministry of Education of China.
