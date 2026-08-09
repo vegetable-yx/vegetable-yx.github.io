@@ -7,19 +7,27 @@
 #   date     display string, e.g. "2026" or "Jul 2026" — quote it so YAML keeps it as text
 #   url      link to the announcement, leaderboard, or certificate
 #   summary  one line of context, e.g. rank, prize, or number of competitors
-#   image    filename of a picture to show under the entry, stored in assets/img/award/
+#   image    filename, or a list of filenames, stored in assets/img/award/.
+#            e.g. `image: cert.jpg` or `image: [2022NI.jpg, 2023NI.jpg]`.
+#            A .jpg/.png is shown as a picture under the entry; a .pdf falls back to a
+#            "Certificate (PDF)" link, because browsers cannot render a PDF in an <img>.
 
 - title: Gold Award, Challenge Cup
+  image: challenge.jpg
 
 - title: Bronze Medal, iGEM
   awarder: iGEM Foundation
   summary: International level.
+  image: igem.jpg
 
 - title: Third Prize, RoboMaster Robotics Competition
   summary: National level.
+  image: Robomaster.jpg
 
 - title: National Undergraduate Innovation and Entrepreneurship Training Program
   summary: Two projects completed.
+  image: [2023NI.jpg, 2022NI.jpg]
 
 - title: Third Prize, Lanqiao Cup Programming Contest
   summary: Shanghai division.
+  image: lanqiao.jpg

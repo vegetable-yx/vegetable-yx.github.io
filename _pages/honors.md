@@ -25,8 +25,9 @@ nav_order: 4
     {% if item.issuer %}&middot; {{ item.issuer }}{% endif %}
     {% if item.date %}&middot; {{ item.date }}{% endif %}
     {% if item.summary %}<div class="text-muted">{{ item.summary }}</div>{% endif %}
-    {% if item.images %}
-      {% for file in item.images %}
+    {% if item.image %}
+      {% if item.image.first %}{% assign files = item.image %}{% else %}{% assign files = item.image | split: "|" %}{% endif %}
+      {% for file in files %}
         {% if file contains ".pdf" %}
           <div style="margin-top: 0.25rem">
             <a href="{{ file | prepend: '/assets/img/honor/' | relative_url }}" target="_blank" rel="noopener">Certificate (PDF)</a>
