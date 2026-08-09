@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<abbr class="badge">ACM MM 2026</abbr> One paper accepted to the ACM International Conference on Multimedia. Not yet public — details will follow once the paper is released.
+<abbr class="badge">ACM MM 2026</abbr> One paper accepted.

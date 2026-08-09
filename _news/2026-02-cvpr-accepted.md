@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<abbr class="badge">CVPR 2026</abbr> One paper accepted to the IEEE/CVF Conference on Computer Vision and Pattern Recognition.
+<a href="https://cvpr.thecvf.com"><abbr class="badge">CVPR 2026</abbr></a> One paper accepted.

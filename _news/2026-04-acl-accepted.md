@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<abbr class="badge">ACL 2026</abbr> Three papers accepted to the Annual Meeting of the Association for Computational Linguistics, one as first author and one as second author.
+<a href="https://www.aclweb.org"><abbr class="badge">ACL 2026</abbr></a> Three papers accepted, one as first author and one as second author.

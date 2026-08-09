@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<abbr class="badge">Tech Report</abbr> Contributed to a technical report released by <img src="{{ '/assets/img/company/meituan.png' | relative_url }}" alt="Meituan" style="height: 1.1rem; vertical-align: text-bottom" /> [Meituan](https://www.meituan.com) on LLM-driven intelligent interaction systems.
+<a href="https://arxiv.org/abs/2510.13291"><abbr class="badge">Tech Report</abbr></a> Contributed to a technical report on LLM-driven intelligent interaction systems, released by <img src="{{ '/assets/img/company/meituan.png' | relative_url }}" alt="Meituan" style="height: 1.1rem; vertical-align: text-bottom" /> [Meituan](https://www.meituan.com).

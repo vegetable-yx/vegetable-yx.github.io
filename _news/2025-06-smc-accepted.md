@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<abbr class="badge">IEEE SMC 2025</abbr> One paper accepted to the IEEE International Conference on Systems, Man, and Cybernetics.
+<a href="https://doi.org/10.1109/SMC58881.2025.11343280"><abbr class="badge">IEEE SMC 2025</abbr></a> One paper accepted.

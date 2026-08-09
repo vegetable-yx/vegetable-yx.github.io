@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<abbr class="badge">ICLR 2026</abbr> One paper accepted to the International Conference on Learning Representations.
+<a href="https://iclr.cc"><abbr class="badge">ICLR 2026</abbr></a> One paper accepted.

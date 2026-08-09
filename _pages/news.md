@@ -8,6 +8,16 @@ permalink: /news/
   h1 {
     text-transform: uppercase;
   }
+
+  /* The gem only paints .badge inside .publications, so a bare <abbr class="badge">
+     elsewhere renders as plain small text. Recreate the publication badge look for
+     the venue tags below, using the same theme variables. */
+  abbr.badge {
+    background-color: var(--global-theme-color);
+    color: var(--global-card-bg-color) !important;
+    border-radius: 0.25rem;
+    text-decoration: none;
+  }
 </style>
 
 <!-- _pages/news.md — entries live in _news/, rendered as a list newest first -->

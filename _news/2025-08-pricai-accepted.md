@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<abbr class="badge">PRICAI 2025</abbr> One paper accepted to the Pacific Rim International Conference on Artificial Intelligence.
+<a href="https://doi.org/10.1007/978-981-95-7078-2_48"><abbr class="badge">PRICAI 2025</abbr></a> One paper accepted.

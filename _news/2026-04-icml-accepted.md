@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<abbr class="badge">ICML 2026</abbr> Two papers accepted to the International Conference on Machine Learning.
+<a href="https://icml.cc"><abbr class="badge">ICML 2026</abbr></a> Two papers accepted.

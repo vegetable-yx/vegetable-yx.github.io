@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined the ERNIE team at <img src="{{ '/assets/img/company/baidu.png' | relative_url }}" alt="Baidu" style="height: 1.1rem; vertical-align: text-bottom" /> [Baidu](https://www.baidu.com) as a Foundation Model Algorithm Intern, selected for the Wenxin Rising Star Top Talent Program.
+Joined the ERNIE team at <img src="{{ '/assets/img/company/baidu.png' | relative_url }}" alt="Baidu" style="height: 1.1rem; vertical-align: text-bottom" /> [Baidu](https://www.baidu.com) as a Foundation Model Algorithm Intern, selected for the <strong style="background-color: var(--global-theme-color); color: var(--global-card-bg-color); border-radius: 999px; padding: 0.1rem 0.6rem; white-space: nowrap">Wenxin Rising Star Top Talent Program</strong>.
