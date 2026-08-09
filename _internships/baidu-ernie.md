@@ -19,7 +19,7 @@ team_logo: ernie.png # optional team/department logo — this page only
 </div>
 {% endif %}
 
-Selected for the ERNIE Rising Star top-talent program.
+Selected for the **ERNIE Rising Star Top-Talent Program**.
 
 #### RL Training and Pipeline Governance
 
