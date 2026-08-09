@@ -25,11 +25,19 @@ nav_order: 4
     {% if item.issuer %}&middot; {{ item.issuer }}{% endif %}
     {% if item.date %}&middot; {{ item.date }}{% endif %}
     {% if item.summary %}<div class="text-muted">{{ item.summary }}</div>{% endif %}
-    {% if item.image %}
-      {% assign honor_image = item.image | prepend: "assets/img/honor/" %}
-      <div style="margin-top: 0.5rem; max-width: 22rem">
-        {% include figure.liquid path=honor_image class="img-fluid rounded z-depth-1" title=item.title %}
-      </div>
+    {% if item.images %}
+      {% for file in item.images %}
+        {% if file contains ".pdf" %}
+          <div style="margin-top: 0.25rem">
+            <a href="{{ file | prepend: '/assets/img/honor/' | relative_url }}" target="_blank" rel="noopener">Certificate (PDF)</a>
+          </div>
+        {% else %}
+          {% assign honor_image = file | prepend: "assets/img/honor/" %}
+          <div style="margin-top: 0.5rem; max-width: 22rem">
+            {% include figure.liquid path=honor_image class="img-fluid rounded z-depth-1" title=item.title %}
+          </div>
+        {% endif %}
+      {% endfor %}
     {% endif %}
   </li>
   {% endfor %}
