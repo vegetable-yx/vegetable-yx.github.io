@@ -14,17 +14,19 @@
 
 - title: National Scholarship
   issuer: Ministry of Education, China
-  image: 2022first.jpg
+  image: 2022national.jpg
 
 - title: Shanghai Outstanding Graduate
   issuer: Shanghai Municipal Education Commission
+  image: graduate.jpg
 
 - title: First-Class Scholarship
   issuer: Zhejiang University
 
 - title: First-Class Scholarship
   issuer: Tongji University
-  summary: Awarded multiple times.
+  image: [2019first.jpg, 2022first.jpg]
 
 - title: Outstanding Student
   issuer: Tongji University
+  image: 2021student.jpg
