@@ -7,6 +7,7 @@
 #   date     display string, e.g. "2026" or "Jul 2026" — quote it so YAML keeps it as text
 #   url      link to the announcement, certificate, or list of recipients
 #   summary  one line of context, e.g. selection rate or scope
+#   image    filename of a picture to show under the entry, stored in assets/img/honor/
 
 - title: National Scholarship
   issuer: Ministry of Education, China

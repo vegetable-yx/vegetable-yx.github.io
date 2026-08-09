@@ -1,11 +1,17 @@
 ---
 layout: page
-title: honors
+title: Honors
 permalink: /honors/
 description: Scholarships, fellowships, and other honors.
 nav: true
 nav_order: 4
 ---
+
+<style>
+  h1 {
+    text-transform: uppercase;
+  }
+</style>
 
 <!-- _pages/honors.md — edit the entries in _data/honors.yml, not this file -->
 
@@ -14,11 +20,17 @@ nav_order: 4
 
 <ul class="list-honors">
   {% for item in honors %}
-  <li>
+  <li style="margin-bottom: 1rem">
     {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}<strong>{{ item.title }}</strong>{% endif %}
     {% if item.issuer %}&middot; {{ item.issuer }}{% endif %}
     {% if item.date %}&middot; {{ item.date }}{% endif %}
     {% if item.summary %}<div class="text-muted">{{ item.summary }}</div>{% endif %}
+    {% if item.image %}
+      {% assign honor_image = item.image | prepend: "assets/img/honor/" %}
+      <div style="margin-top: 0.5rem; max-width: 22rem">
+        {% include figure.liquid path=honor_image class="img-fluid rounded z-depth-1" title=item.title %}
+      </div>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>

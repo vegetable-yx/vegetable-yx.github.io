@@ -7,6 +7,7 @@
 #   date     display string, e.g. "2026" or "Jul 2026" — quote it so YAML keeps it as text
 #   url      link to the announcement, leaderboard, or certificate
 #   summary  one line of context, e.g. rank, prize, or number of competitors
+#   image    filename of a picture to show under the entry, stored in assets/img/award/
 
 - title: Gold Award, Challenge Cup
 
