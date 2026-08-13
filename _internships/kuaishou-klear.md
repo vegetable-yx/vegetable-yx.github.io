@@ -21,17 +21,19 @@ team_logo: # optional team/department logo — this page only
 
 Foundation Model and Applications Department, Klear foundation model team.
 
-#### Data Pipeline and Synthesis
+#### Data System and Synthesis
 
-- Decomposed and categorized 100+ high-quality novels along multiple dimensions, producing a taxonomy for novel data, a domain knowledge base, and a structured format specification.
-- Built data synthesis and quality filtering on top of that system, yielding roughly 6k high-quality post-training samples and expanding the pool of usable data by about 60x.
+- Decomposed and categorized 100+ high-quality novels along multiple dimensions, producing three reusable assets from the analysis: a taxonomy for novel data, a domain knowledge base, and a structured format specification.
+- Built synthesis and quality filtering on top of that system, yielding roughly 6k high-quality post-training samples and expanding the pool of usable data by about 60x over what the raw corpus could supply directly.
 
-#### Novel Base Model Training
+#### Two-Stage Post-Training Paradigm
 
-- Designed a two-stage Plan + Response data format and training paradigm, plus a chapter-by-chapter, multi-turn rewriting pipeline for long-form narrative.
+- Designed a two-stage Plan + Response data format and training paradigm that decouples planning from surface realization, turning the plan into an explicit, separately optimizable variable rather than a latent step buried inside one long generation.
+- Built a chapter-by-chapter, multi-turn rewriting pipeline for long-form narrative, so consistency constraints are enforced incrementally instead of being left to a single pass over the whole text.
 - Internal evaluation score rose from roughly 62 to 83 (+21), with format adherence above 98% and consistency above 95%.
 
 #### Creative Writing RL
 
-- Designed and validated a Tree-Rollout RL training scheme for creative writing on top of the two-stage generation framework.
-- Improved on the contemporaneous SOTA approach by more than 5% across all four creative-writing benchmarks. Submitted to EMNLP 2026.
+- Designed and validated Tree-Rollout RL on top of the two-stage framework: each plan is expanded into multiple responses, so a plan is scored by the expected return over its children instead of a single high-variance trajectory estimate, and the plan-level signal is propagated back down to those children.
+- Improved on the contemporaneous SOTA approach by more than 5% across all four creative-writing benchmarks.
+- Found that supervising the plan alone yields no gain — the credit has to reach the responses — which motivated the hierarchical credit assignment formulation developed further in my first-author submission to EMNLP 2026.
