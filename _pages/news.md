@@ -2,6 +2,7 @@
 layout: page
 title: News
 permalink: /news/
+description: Selected updates on papers, internships, and honors.
 ---
 
 <style>

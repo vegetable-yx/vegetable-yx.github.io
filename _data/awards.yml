@@ -12,14 +12,13 @@
 #            A .jpg/.png is shown as a picture under the entry; a .pdf falls back to a
 #            "Certificate (PDF)" link, because browsers cannot render a PDF in an <img>.
 
-
 - title: Bronze Medal, iGEM
   awarder: iGEM Foundation
-  summary: International level.
+  summary: International-level competition.
   image: igem.jpg
 
 - title: Third Prize, RoboMaster Robotics Competition
-  summary: National level.
+  summary: National-level competition.
   image: Robomaster.jpg
 
 - title: National Undergraduate Innovation and Entrepreneurship Training Program

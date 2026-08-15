@@ -2,7 +2,7 @@
 layout: page
 title: Awards
 permalink: /awards/
-description: Paper awards and competition results.
+description: Competition results and project awards.
 nav: true
 nav_order: 5
 ---

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://www.aclweb.org"><abbr class="badge">ACL 2026</abbr></a> Three papers accepted, one as first author and one as second author.
+<a href="https://www.aclweb.org"><abbr class="badge">ACL 2026</abbr></a> Three papers accepted, including one as first author and one as second author.

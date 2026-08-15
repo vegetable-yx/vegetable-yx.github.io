@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Nominated for <strong style="background-color: #2563eb; color: #fff; border-radius: 999px; padding: 0.1rem 0.6rem; white-space: nowrap">postgraduate admission by recommendation</strong>, and received an offer from <img src="{{ '/assets/img/school/zju.png' | relative_url }}" alt="Zhejiang University" style="height: 1.1rem; vertical-align: text-bottom" /> [Zhejiang University](https://www.zju.edu.cn).
+Selected for <strong style="background-color: #2563eb; color: #fff; border-radius: 999px; padding: 0.1rem 0.6rem; white-space: nowrap">postgraduate admission by recommendation</strong> and admitted to <img src="{{ '/assets/img/school/zju.png' | relative_url }}" alt="Zhejiang University" style="height: 1.1rem; vertical-align: text-bottom" /> [Zhejiang University](https://www.zju.edu.cn).
